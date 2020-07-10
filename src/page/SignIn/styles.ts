@@ -12,22 +12,31 @@ export const Content = styled.section`
   max-width: 800px;
   width: 100%;
   text-align: center;
-
-  img{ 
-    margin-top: 40px;
-    width: 180px;
+  margin-top: 30px;
+  
+  span {
+    img{
+      margin-top: 20px;
+      width: 120px;
+      height: 120px;
+    }
   }
+ 
 
   h3 { 
     margin-top: 15px;
-    font-weight: 400;
+    font-family: 'Karla', 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
   }
 
   div.Site{
-    margin-top: 50px;
+    margin-top: 35px;
   }
 
-  div.Facebook{
+  div.Telefone{
     margin-bottom: 10px;
   }
 
@@ -45,8 +54,11 @@ export const Content = styled.section`
 
     a{ 
       text-decoration: none;
-      color: #3D3B3C;
-      font-size: 20px;
+      color: #3d3b3c;
+      font-family: 'Karla', 'Karla', sans-serif;
+      letter-spacing: 1px;
+      font-size: 17px;
+      font-weight: 500;
       width: 100%;
       height: 60px;
       display: flex;
