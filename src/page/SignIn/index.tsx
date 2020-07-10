@@ -33,8 +33,12 @@ const SignIn: React.FC = () => {
             <a href="https://www.facebook.com/barbSantoBigode/">Curta nossa Fanpage Oficial!</a>
           </div>
 
+          <div>
+            <a href="https://www.instagram.com/tv/CCKASg_JNup/?utm_source=ig_web_copy_link">Confira nosso vídeo!</a>
+          </div>
+
           <div className="Telefone">
-            <a href="tel:47999454227">Telefonar</a>
+            <a href="tel:47999454227">Telefonar!</a>
           </div>
 
 
